@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About Us</title>
+    <title>@yield('title', 'Laracasts')</title>
 </head>
 <body>
 <ul>
