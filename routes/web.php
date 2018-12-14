@@ -11,22 +11,8 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', 'PagesController@home');
+Route::get('/about', 'PagesController@about');
+Route::get('/contact', 'PagesController@contact');
 
-    return view('welcome')->withTasks([
-        'Go to the school',
-        'Go to the market',
-        'Go to work'
-    ]);
 
-});
-
-Route::get('/about', function () {
-    return view('about');
-
-});
-Route::get('/contact', function () {
-    return view('contact');
-});
-
-$a = strlen('abc');
