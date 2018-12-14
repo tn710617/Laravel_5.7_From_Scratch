@@ -12,7 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    return view('welcome')->withTasks([
+        'Go to the school',
+        'Go to the market',
+        'Go to work'
+    ]);
+
 });
 
 Route::get('/about', function () {
@@ -22,3 +28,5 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+$a = strlen('abc');
