@@ -9,6 +9,8 @@
     <li><a href="/">Welcome</a></li>
     <li><a href="/about">About</a></li>
     <li><a href="/contact">contact</a></li>
+    <li><a href="/projects">Index</a></li>
+    <li><a href="/projects/create">Create</a></li>
 </ul>
 @yield('content')
 </body>
